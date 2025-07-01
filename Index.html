@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>State of the Heart - Quran Player</title>
+  <link rel="icon" href="images/window_icon.ico" type="image/x-icon" />
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/quran.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .container {
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    background: rgba(18, 36, 45, 0.9);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  select {
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .controls button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+  }
+</style>
+
+</head>
+<body>
+  <div class="container">
+    <h1>State of the Heart - Quran Player</h1>
+    <p>Select your mood to listen to a related Quranic Surah with Tarjama:</p>
+
+    <select id="moodSelect">
+      <option value="">Choose your state of heart</option>
+      <option value="Sad">Sad</option>
+      <option value="Anxious">Anxious</option>
+      <option value="Grateful">Grateful</option>
+      <option value="Calm">Calm</option>
+      <option value="Lost">Lost</option>
+      <option value="Motivated">Motivated</option>
+      <option value="Angry">Angry</option>
+      <option value="Lonely">Lonely</option>
+    </select>
+
+    <div class="controls">
+      <button onclick="playAudio()">▶ Play</button>
+      <button onclick="pauseAudio()">⏸ Pause</button>
+      <button onclick="replayAudio()">🔁 Replay</button>
+    </div>
+
+    <h3 id="surahName"></h3>
+    <audio id="audioPlayer" controls hidden></audio>
+  </div>
+
+  <script>
+    const moodMap = {
+      "Sad": "93-Ad-Duha.mp3",
+      "Anxious": "94-As-Sharh.mp3",
+      "Grateful": "55-Ar-Rahman.mp3",
+      "Calm": "18-Al-Kahf.mp3",
+      "Lost": "01-Al-Fatiha.mp3",
+      "Motivated": "103-Al-Asr.mp3",
+      "Angry": "03-Aal-e-Imran.mp3",
+      "Lonely": "19-Maryam.mp3"
+    };
+
+    const player = document.getElementById("audioPlayer");
+    const surahLabel = document.getElementById("surahName");
+
+    function playAudio() {
+      const mood = document.getElementById("moodSelect").value;
+      if (mood && moodMap[mood]) {
+        const file = moodMap[mood];
+        player.src = `audio/${file}`;
+        player.play();
+        player.hidden = false;
+
+        const surah = file.split('-').slice(1).join(' ').replace(".mp3", "");
+        surahLabel.textContent = "Surah: " + surah;
+      } else {
+        alert("Please select a valid mood.");
+      }
+    }
+
+    function pauseAudio() {
+      player.pause();
+    }
+
+    function replayAudio() {
+      player.currentTime = 0;
+      player.play();
+    }
+  </script>
+</body>
+</html>
