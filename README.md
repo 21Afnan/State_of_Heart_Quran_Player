@@ -20,3 +20,17 @@ This is an emotion-based Quran audio player that recommends a Surah based on you
 
 ## 🗂️ Project Structure
 
+State_of_Heart_Quran_Player/
+├── index.html                  # Main HTML file
+├── Images/                     # Icons & background
+│   ├── quran.png
+│   └── window_icon.ico
+├── audio/                      # Surah audio files
+│   ├── 93-Ad-Duha.mp3
+│   ├── 94-As-Sharh.mp3
+│   ├── 55-Ar-Rahman.mp3
+│   ├── 18-Al-Kahf.mp3
+│   ├── 01-Al-Fatiha.mp3
+│   ├── 103-Al-Asr.mp3
+│   ├── 03-Aal-e-Imran.mp3
+│   └── 19-Maryam.mp3
