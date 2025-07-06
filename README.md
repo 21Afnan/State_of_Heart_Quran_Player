@@ -19,7 +19,7 @@ This is an emotion-based Quran audio player that recommends a Surah based on you
 - The app uses HTML, CSS, and JavaScript only — no frameworks or backend
  
 ## 🗂️ Project Structure
----
+```bash
 State_of_Heart_Quran_Player/
 ├── index.html                  # Main HTML file
 ├── Images/                     # Icons & background
@@ -34,7 +34,8 @@ State_of_Heart_Quran_Player/
 │   ├── 103-Al-Asr.mp3
 │   ├── 03-Aal-e-Imran.mp3
 │   └── 19-Maryam.mp3
----
+```
+
 
 ## 🚀 How to Run
 
