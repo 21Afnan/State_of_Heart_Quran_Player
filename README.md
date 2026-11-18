@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B2027,50:12242D,100:C9A227&height=200&section=header&text=State%20of%20the%20Heart&fontSize=50&fontColor=FFFFFF&fontAlignY=36&desc=A%20mood-based%20Quran%20player&descSize=16&descAlignY=58" width="100%" alt="State of the Heart"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A0D2E,50:C2185B,100:FF8FC7&height=200&section=header&text=State%20of%20the%20Heart&fontSize=50&fontColor=FFFFFF&fontAlignY=36&desc=A%20mood-based%20Quran%20player&descSize=16&descAlignY=58" width="100%" alt="State of the Heart"/>
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/License-MIT-C9A227?style=for-the-badge" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/License-MIT-FF4FA3?style=for-the-badge" alt="MIT License"/>
 </p>
 
 **[Open the web player](https://21afnan.github.io/State_of_Heart_Quran_Player/)**
@@ -83,8 +83,8 @@ The code is released under the [MIT License](LICENSE). The Quran recitation audi
 
 Made by **Afnan Shoukat**
 
-<a href="mailto:afnanshoukat35@gmail.com"><img src="https://img.shields.io/badge/Email-afnanshoukat35%40gmail.com-C9A227?style=for-the-badge&logo=gmail&logoColor=white&labelColor=12242D" alt="Email"/></a>
-<a href="https://www.linkedin.com/in/afnanshoukat"><img src="https://img.shields.io/badge/LinkedIn-Afnan%20Shoukat-C9A227?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=12242D" alt="LinkedIn"/></a>
-<a href="https://github.com/21Afnan"><img src="https://img.shields.io/badge/GitHub-21Afnan-C9A227?style=for-the-badge&logo=github&logoColor=white&labelColor=12242D" alt="GitHub"/></a>
+<a href="mailto:afnanshoukat35@gmail.com"><img src="https://img.shields.io/badge/Email-afnanshoukat35%40gmail.com-FF4FA3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=4A0D2E" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/afnanshoukat"><img src="https://img.shields.io/badge/LinkedIn-Afnan%20Shoukat-FF4FA3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=4A0D2E" alt="LinkedIn"/></a>
+<a href="https://github.com/21Afnan"><img src="https://img.shields.io/badge/GitHub-21Afnan-FF4FA3?style=for-the-badge&logo=github&logoColor=white&labelColor=4A0D2E" alt="GitHub"/></a>
 
 </div>
